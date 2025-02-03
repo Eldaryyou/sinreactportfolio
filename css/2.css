@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: "Work Sans";
+  margin: 0;
+  padding: 0;
+}
+html {
+  /*no permite deslizar cuando hago click en los links del menu*/
+  scroll-behavior: smooth;
+}
+
+.skills {
+  background-color: #252a2e;
+  color: #fff;
+  padding: 50px 20px 50px 30px;
+}
+.skills .contenido-skills {
+  max-width: 1100px;
+  margin: auto;
+}
+.skills h2 {
+  font-size: 48px;
+  font-family: "Righteous";
+  padding: 70px 0px;
+  text-align: center;
+}
+
+.skills .fila .skill {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 108px;
+  padding: 50px 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.skills .fila .skill .overlay {
+  height: 3px;
+  background-color: #1cb698;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+}
+
+.over {
+  background-color: #1cb698;
+  position: relative;
+  top: -3px;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  margin-left: 150px;
+}
+.over:first-child {
+  margin-left: 115px;
+}
+.over:nth-child(2) {
+  margin-left: 160px;
+}
+.over:nth-child(3) {
+  margin-left: 165px;
+}
+.over:nth-child(4) {
+  margin-left: 160px;
+}
+.over:nth-child(5) {
+  margin-left: 165px;
+}
+.over:nth-child(6) {
+  margin-left: 160px;
+}
